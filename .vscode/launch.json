@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Flutter (Wireless Debugging)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "192.168.0.103:5555", 
+            "program": "lib/main.dart",
+            "args": [
+              "--no-resident"
+            ],
+            "cwd": "${workspaceFolder}"
+          },
+        {
+            "name": "Flutter",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "SM E225F", 
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "assgnmnt_10_3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "assgnmnt_10_3 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "assgnmnt_10_3 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
